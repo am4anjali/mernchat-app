@@ -9,6 +9,11 @@ body{
     background-position: center;
     
 }
+html,
+:host{
+    -webkit-text-size-adjust:100%;
+    text-size-adjust:100%;
+}
 
 /* dark mode looking scrollbar*/
 ::-webkit-scrollbar{
